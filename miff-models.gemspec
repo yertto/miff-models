@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/miff-models.rb",
+     "miff-models.gemspec",
      "test/helper.rb",
      "test/test_miff-models.rb"
   ]
