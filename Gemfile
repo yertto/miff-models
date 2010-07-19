@@ -1,4 +1,4 @@
-source 'http://gemcutter.org'
+source 'http://rubygems.org'
 
 gem 'dm-core'        , '1.0.0'
 gem 'dm-types'       , '1.0.0'
