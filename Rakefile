@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "miff-models"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Models used to hold MIFF data.}
+    gem.description = %Q{These models store data scraped from the Melbourne International Film Festival site http://www.melbournefilmfestival.com.au}
     gem.email = "yertto@gmail.com"
     gem.homepage = "http://github.com/yertto/miff-models"
     gem.authors = ["yertto"]
