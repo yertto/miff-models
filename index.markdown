@@ -1,3 +1,9 @@
+---
+layout:       default
+body_id:      home
+title:        MIFF models
+---
+
 # miff-models
 
 These [DataMapper](http://datamapper.org) models are used to store data scraped from the
