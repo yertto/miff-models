@@ -1,6 +1,7 @@
 = miff-models
 
-Description goes here.
+These [DataMapper](http://datamapper.org) models are used to store data scraped from the
+[Melbourne International Film Festival](http://www.melbournefilmfestival.com.au)
 
 == Note on Patches/Pull Requests
  

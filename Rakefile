@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "miff-models"
     gem.summary = %Q{Models used to hold MIFF data.}
-    gem.description = %Q{These models store data scraped from the Melbourne International Film Festival site http://www.melbournefilmfestival.com.au}
+    gem.description = %Q{These DataMapper models are used to store data scraped from the Melbourne International Film Festival}
     gem.email = "yertto@gmail.com"
     gem.homepage = "http://github.com/yertto/miff-models"
     gem.authors = ["yertto"]
