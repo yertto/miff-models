@@ -1,8 +1,14 @@
-## PROJECT::GENERAL
-.bundle
 coverage
 rdoc
 pkg
+.bundle
+.rvmrc
 
 ## PROJECT::SPECIFIC
 *.db
+devel.db
+*.log
+
+# don't *think* these are needed in the repo
+Gemfile.lock
+*.gemspec
