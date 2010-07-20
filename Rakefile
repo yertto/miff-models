@@ -17,6 +17,12 @@ begin
     gem.email = "yertto@gmail.com"
     gem.homepage = "http://github.com/yertto/miff-models"
     gem.authors = ["yertto"]
+    
+    gem.add_dependency "dm-core"
+    gem.add_dependency "dm-types"
+    gem.add_dependency "dm-migrations"
+    gem.add_dependency "dm-validations"
+    
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
