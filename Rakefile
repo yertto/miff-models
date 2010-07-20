@@ -22,6 +22,7 @@ begin
     gem.add_dependency "dm-types"
     gem.add_dependency "dm-migrations"
     gem.add_dependency "dm-validations"
+    gem.add_dependency "dm-sqlite-adapter"
     
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
