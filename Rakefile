@@ -2,6 +2,13 @@ require 'rubygems'
 require 'rake'
 
 begin
+  require 'bundler'
+  Bundler.setup
+rescue LoadError
+  puts "Please install Bundler and run 'bundle install' to ensure you have all dependencies"
+end
+
+begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "miff-models"
