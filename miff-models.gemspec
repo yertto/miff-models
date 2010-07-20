@@ -35,8 +35,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Models used to hold MIFF data.}
   s.test_files = [
-    "test/helper.rb",
-     "test/test_miff-models.rb"
+    "test/test_miff-models.rb",
+     "test/helper.rb"
   ]
 
   if s.respond_to? :specification_version then
@@ -48,12 +48,14 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<dm-types>, [">= 0"])
       s.add_runtime_dependency(%q<dm-migrations>, [">= 0"])
       s.add_runtime_dependency(%q<dm-validations>, [">= 0"])
+      s.add_runtime_dependency(%q<dm-sqlite-adapter>, [">= 0"])
       s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
     else
       s.add_dependency(%q<dm-core>, [">= 0"])
       s.add_dependency(%q<dm-types>, [">= 0"])
       s.add_dependency(%q<dm-migrations>, [">= 0"])
       s.add_dependency(%q<dm-validations>, [">= 0"])
+      s.add_dependency(%q<dm-sqlite-adapter>, [">= 0"])
       s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
     end
   else
@@ -61,6 +63,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<dm-types>, [">= 0"])
     s.add_dependency(%q<dm-migrations>, [">= 0"])
     s.add_dependency(%q<dm-validations>, [">= 0"])
+    s.add_dependency(%q<dm-sqlite-adapter>, [">= 0"])
     s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
   end
 end
